@@ -1,0 +1,75 @@
+body {
+    background: white;
+    font-family: "Microsoft YaHei","Roboto", sans-serif;
+}
+.container.feature{
+    margin-top: 50px;
+}
+
+.featurete-heading{
+    font-size: 3rem;
+}
+
+.pp img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-style:solid;
+    border-color:#FF9900;
+    border-width:5px;
+    
+}
+
+.row.people{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.row.product{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.name{
+    font-size: 2rem;
+}
+
+
+
+h1.title{
+    font: 5rem white;
+    color: #ffffff;
+    font-family: "Alata";
+}
+p.slogan{
+    font-size: 1.5rem ;
+    color: #ffffff;
+
+}
+
+div.title{
+    margin-top: 20px;
+}
+
+.headers{
+    position: relative;
+    background-image: url(public/becca-mchaffie-Fzde_6ITjkw-unsplash.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-origin: border-box;
+    background-position: right center ;
+    
+}
+
+.header::after{
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: rgba(42, 43, 47, 0.3);
+}
+
+
+
